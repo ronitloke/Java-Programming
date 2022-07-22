@@ -1,0 +1,10 @@
+class  p2
+{
+	public static void main(String[] args) 
+	{
+		int r = 5;
+		double a = 3.142 * r * r;
+		double res = a;
+		System.out.println(res);
+	}
+}
