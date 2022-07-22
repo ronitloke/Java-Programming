@@ -1,0 +1,24 @@
+import java.util.*;
+class p3 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter principle");
+		int p = sc.nextInt();
+
+		System.out.println("Enter rate");
+		double r = sc.nextInt();
+
+		System.out.println("Enter time");
+
+		int t = sc.nextInt();
+		double Amount = 0;
+		System.out.println();
+
+		Amount = p * r * t / 100;
+
+		System.out.println("Total amount is " + Amount);
+	}
+}

@@ -1,0 +1,18 @@
+import java.util.*;
+class p2 
+{
+	public static void main(String[] args) 
+	{
+	    Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter the radius");
+		int r = sc.nextDouble();
+		double p = 3.142 ; 
+		double area = 0;
+		area = p * r * r;
+
+		System.out.println(area);
+
+
+	}
+}
