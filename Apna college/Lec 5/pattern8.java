@@ -1,0 +1,29 @@
+/*Print the pattern
+
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+
+*/
+class p8 
+{
+	public static void main(String[] args) 
+	{
+	    int n = 5;
+
+		for (int i=1;i<=n;i++)
+		{
+			for (int j=1;j<=n-i+1;j++) // when (i = 1 to 5) then (j = 5 to 1)
+			{
+			System.out.print(j);
+			}
+		System.out.println();
+		}
+	}
+}
+
+/*Note
+-either start with n=6 if u r using j<=n-i
+*/
